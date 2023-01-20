@@ -2,4 +2,23 @@
   .scb-hamburger {
     display: none;
   }
+
+  .scb-nav-extended {
+    display: block;
+    transition: ease-in;
+  }
+  .scb-nav-extended ul {
+    display: flex;
+    font-weight: 700;
+  }
+  .scb-nav-extended li {
+    padding: 1rem;
+    display: inline-block;
+  }
+}
+/* **************************
+AVATAR
+************************** */
+.scb-avatar {
+  max-width: 25%;
 }
