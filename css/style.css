@@ -3,7 +3,7 @@ SERVICE RULES
 ************************** */
 
 body {
-  background-color: red;
+  background-color: black;
   color: white;
 }
 :root {
@@ -17,6 +17,18 @@ body {
 /* **************************
 LAYOUT
 ************************** */
-.navbar {
+.scb-navbar,
+.scb-footer {
   background-color: var(--nav-color);
+}
+.scb-hero,
+.scb-about {
+  background-color: var(--hero-color);
+}
+.sbc-portfolio,
+.scb-contact {
+  background-color: grey;
+}
+.sbc-info {
+  background-color: var(--social-color);
 }
