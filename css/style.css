@@ -1,0 +1,22 @@
+/* **************************
+SERVICE RULES
+************************** */
+
+body {
+  background-color: red;
+  color: white;
+}
+:root {
+  --nav-color: #2b3e50;
+  --hero-color: #1abc9c;
+  --social-color: #3a546d;
+}
+[class^="col"] {
+  border: 2px solid white;
+}
+/* **************************
+LAYOUT
+************************** */
+.navbar {
+  background-color: var(--nav-color);
+}
