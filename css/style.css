@@ -12,7 +12,7 @@ body {
   --social-color: #3a546d;
 }
 [class^="col"] {
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 /* **************************
 LAYOUT
@@ -31,4 +31,22 @@ LAYOUT
 }
 .sbc-info {
   background-color: var(--social-color);
+}
+/* **************************
+NAV BAR
+************************** */
+.scb-title {
+  font-size: 1rem;
+  line-height: 2em;
+  height: 100%;
+}
+.scb-hamburger {
+  color: #888888;
+  cursor: pointer;
+  margin-right: auto;
+}
+.scb-hamburger i {
+  line-height: 2em;
+  padding: 0 0.5rem;
+  border: 2px solid grey;
 }
