@@ -124,9 +124,30 @@ ABOUT
   background-color: white;
 }
 .btn-outline-primary:active {
-  background-color: white;
+  background-color: ;
 }
 
+/* **************************
+CONTACT
+************************** */
+.scb-contact {
+  color: var(--portfolio-text-color);
+}
+.border-bottom-2 {
+  border-bottom: 1px solid grey;
+}
+.btn-success {
+  color: white;
+  background-color: var(--hero-color);
+  font-size: 14px;
+}
+.btn-success:hover {
+  /* color: black; */
+  background-color: var(--hero-color);
+}
+.btn-btn-success:active {
+  background-color: var(--hero-color);
+}
 /* **************************
 SOCIAL
 ************************** */
