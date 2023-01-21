@@ -72,7 +72,8 @@ NAV BAR
 HERO
 ************************** */
 .scb-avatar-h2,
-.scb-portfolio-h2 {
+.scb-portfolio-h2,
+.scb-about-h2 {
   font-size: 2.5rem;
 }
 .scb-avatar {
@@ -109,6 +110,21 @@ PORTFOLIO
 ************************** */
 .sbc-portfolio {
   color: var(--portfolio-text-color);
+}
+/* **************************
+ABOUT
+************************** */
+.btn-outline-primary {
+  color: white;
+  border: 1px solid white;
+  font-size: 14px;
+}
+.btn-outline-primary:hover {
+  color: black;
+  background-color: white;
+}
+.btn-outline-primary:active {
+  background-color: white;
 }
 
 /* **************************
