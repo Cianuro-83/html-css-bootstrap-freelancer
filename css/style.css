@@ -3,13 +3,13 @@ SERVICE RULES
 ************************** */
 
 body {
-  background-color: black;
   color: white;
 }
 :root {
   --nav-color: #2b3e50;
   --hero-color: #1abc9c;
   --social-color: #3a546d;
+  --portfolio-text-color: #2b3e50;
 }
 [class^="col"] {
   /* border: 2px solid white; */
@@ -43,7 +43,7 @@ LAYOUT
 }
 .sbc-portfolio,
 .scb-contact {
-  background-color: grey;
+  background-color: white;
 }
 .sbc-info {
   background-color: var(--social-color);
@@ -73,7 +73,8 @@ NAV BAR
 /* **************************
 HERO
 ************************** */
-.scb-avatar-h2 {
+.scb-avatar-h2,
+.scb-portfolio-h2 {
   font-size: 2.5rem;
 }
 .scb-avatar {
@@ -87,20 +88,48 @@ HERO
 .scb-star::before {
   content: "";
   position: absolute;
-  background-color: white;
+  background-color: currentColor;
   width: 350%;
   height: 3px;
-  bottom: 20px;
+  bottom: 30px;
   left: 35px;
   border-radius: 999px;
 }
 .scb-star::after {
   content: "";
   position: absolute;
-  background-color: white;
+  background-color: currentColor;
   width: 350%;
   height: 3px;
   top: 15px;
   right: 35px;
   border-radius: 999px;
+}
+
+/* **************************
+PORTFOLIO
+************************** */
+.sbc-portfolio {
+  color: var(--portfolio-text-color);
+}
+
+/* **************************
+CONTACT
+************************** */
+/* .scb-social {
+  font-size: 1.5rem;
+  border: 1px solid red;
+  padding: 20px 10px;
+} */
+
+/* **************************
+FOOTER
+************************** */
+
+.scb-sub-text-footer {
+  display: block;
+  text-transform: none;
+}
+.scb-color {
+  color: #1abc9c;
 }
