@@ -11,9 +11,9 @@ body {
   --social-color: #3a546d;
   --portfolio-text-color: #2b3e50;
 }
-[class^="col"] {
-  /* border: 2px solid white; */
-}
+/* [class^="col"] {
+  border: 2px solid white;
+} */
 
 /* **************************
 RESET RULES
@@ -27,9 +27,7 @@ a {
   text-decoration: none;
   color: currentColor;
 }
-/* img {
-  max-width: 100%;
-} */
+
 /* **************************
 LAYOUT
 ************************** */
@@ -114,13 +112,11 @@ PORTFOLIO
 }
 
 /* **************************
-CONTACT
+SOCIAL
 ************************** */
-/* .scb-social {
+.scb-social {
   font-size: 1.5rem;
-  border: 1px solid red;
-  padding: 20px 10px;
-} */
+}
 
 /* **************************
 FOOTER
