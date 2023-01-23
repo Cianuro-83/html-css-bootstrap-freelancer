@@ -101,7 +101,8 @@ HERO
 /* **************************
 PORTFOLIO
 ************************** */
-.sbc-portfolio {
+.sbc-portfolio,
+.scb-contact {
   color: var(--portfolio-text-color);
 }
 /* **************************
@@ -146,25 +147,15 @@ CONTACT
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-
-.scb-contact {
-  color: var(--portfolio-text-color);
-}
-.border-bottom-2 {
-  border-bottom: 1px solid grey;
-}
-.btn-success {
+.scb-submit {
+  background-color: var(--hero-color);
   color: white;
-  background-color: var(--hero-color);
-  font-size: 14px;
+  border: none;
 }
-.btn-success:hover {
-  /* color: black; */
-  background-color: var(--hero-color);
+.scb-submit:hover {
+  background-color: green;
 }
-.btn-btn-success:active {
-  background-color: var(--hero-color);
-}
+
 /* **************************
 SOCIAL
 ************************** */
