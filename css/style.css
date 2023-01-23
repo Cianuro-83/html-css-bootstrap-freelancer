@@ -1,7 +1,9 @@
 /* **************************
 SERVICE RULES
 ************************** */
-
+body {
+  overflow-x: hidden;
+}
 :root {
   --nav-color: #2b3e50;
   --hero-color: #1abc9c;
@@ -56,13 +58,19 @@ NAV BAR
 /* **************************
 HERO
 ************************** */
+.scb-hero,
+.scb-about,
+.sbc-info,
+.scb-footer {
+  color: white;
+}
 .scb-avatar-h2,
 .scb-portfolio-h2,
 .scb-about-h2 {
   font-size: 2.5rem;
 }
 .scb-avatar {
-  max-width: 35%;
+  width: 350px;
 }
 .scb-star {
   display: inline-block;
