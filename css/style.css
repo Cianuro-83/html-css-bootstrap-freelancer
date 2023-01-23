@@ -123,6 +123,30 @@ ABOUT
 /* **************************
 CONTACT
 ************************** */
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: black;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: black;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers (Safari, Edge, Google Chrome, Opera 15+) */
+  color: black;
+}
+.scb-input {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
 .scb-contact {
   color: var(--portfolio-text-color);
 }
