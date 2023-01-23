@@ -2,9 +2,6 @@
 SERVICE RULES
 ************************** */
 
-body {
-  color: white;
-}
 :root {
   --nav-color: #2b3e50;
   --hero-color: #1abc9c;
@@ -49,24 +46,12 @@ LAYOUT
 /* **************************
 NAV BAR
 ************************** */
-.scb-title {
-  font-size: 1rem;
-  height: 100%;
+.scb-navbar {
+  background-color: var(--nav-color);
   font-weight: 700;
 }
-.scb-hamburger {
-  color: #888888;
-  cursor: pointer;
-  margin-right: auto;
-}
-.scb-hamburger i {
-  padding: 0.5rem;
-  border: 2px solid grey;
-}
-
-.scb-nav-extended {
-  display: none;
-  transition: ease-in;
+.navbar-toggler {
+  border: 1px solid white;
 }
 /* **************************
 HERO
@@ -160,7 +145,7 @@ SOCIAL
   height: 40px;
   border: 1px solid white;
   border-radius: 50%;
-  margin: 0 5px;
+  margin: 5px 5px;
   align-items: center;
 }
 
